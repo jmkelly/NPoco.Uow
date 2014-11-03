@@ -2,7 +2,7 @@
 
 For information about NPoco, see https://github.com/schotime/NPoco
 
-```
+```C#
 using Shouldly;
 using Xunit;
 
@@ -54,3 +54,4 @@ namespace NPoco.UoW
         }
     }
 }
+```
