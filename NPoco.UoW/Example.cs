@@ -40,11 +40,11 @@ namespace NPoco.UoW
             }
         }
 
-        [TableName("dbo.User")]
+        [TableName("dbo.Users")]
         [PrimaryKey("Id")]
         public class User
         {
-            public int Id { get; set; }
+            public int Id { get; private set; }
             public string Email { get; set; }
         }
     }
